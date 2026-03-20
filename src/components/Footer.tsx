@@ -5,17 +5,17 @@ const Footer = () => {
     <footer className="py-12 px-6 border-t border-white/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-xl font-serif font-bold text-gradient tracking-wider">
-          MYSTIC AURA
+          Persephone
         </div>
         
         <div className="flex space-x-8 text-[10px] uppercase tracking-[0.3em] font-medium text-white/40">
-          <a href="#" className="hover:text-mystic-pink transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-mystic-pink transition-colors">Terms of Service</a>
-          <a href="#" className="hover:text-mystic-pink transition-colors">Disclaimer</a>
+          <a href="#" className="hover:text-mystic-pink transition-colors"></a>
+          <a href="#" className="hover:text-mystic-pink transition-colors"></a>
+          <a href="#" className="hover:text-mystic-pink transition-colors"></a>
         </div>
         
         <div className="text-[10px] uppercase tracking-widest text-white/30">
-          © 2026 Mystic Aura. All rights reserved.
+          © 2026 All rights reserved | Made with 💖 | Prem se
         </div>
       </div>
       
