@@ -59,7 +59,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a 
-            href="https://www.instagram.com/persephone_tarot_reader/"
+            href=INSTAGRAM_URL
             target="_blank"
             rel="noopener noreferrer"
             className="px-10 py-4 bg-mystic-pink text-white font-bold rounded-full hover:bg-mystic-pink/80 transition-all shadow-lg shadow-mystic-pink/20 flex items-center justify-center"
