@@ -26,11 +26,11 @@ const readings = [
     message: "I'd like to book a Next Month Guidance reading"
   },
   {
-    title: "6-Month Oracle Journey",
-    description: "My most comprehensive forecast. Long-term guidance for the next 6 months using sacred Oracle decks.",
+    title: "6-Month Tarot Journey",
+    description: "My most comprehensive forecast. Long-term guidance for the next 6 months using sacred decks.",
     icon: <Sparkles className="text-mystic-pink" size={24} />,
     price: "$50",
-    message: "I'm ready for the 6-Month Oracle Journey"
+    message: "I'm ready for the 6-Month Tarot Journey"
   },
   {
     title: "Time Frame Reading",
