@@ -17,7 +17,7 @@ const About = () => {
             <img 
               src={tarotReaderImg} 
               alt="Persephone Tarot Reader" 
-              className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
+              className="w-full h-full object-cover rounded-2xl"
               referrerPolicy="no-referrer"
             />
           </div>
