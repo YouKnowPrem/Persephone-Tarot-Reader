@@ -14,7 +14,7 @@ const About = () => {
         >
           <div className="aspect-[4/5] rounded-3xl overflow-hidden glass p-4">
             <img 
-              src="https://picsum.photos/seed/persephone-tarot/800/1000" 
+              src="src/components/Tarot_reader.png" 
               alt="Persephone Tarot Reader" 
               className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="absolute -bottom-8 -right-8 w-48 h-48 glass-pink rounded-full flex items-center justify-center text-center p-6 border border-mystic-pink/30">
             <p className="text-xs font-bold text-white tracking-widest leading-tight">
-              10+ YEARS OF DIVINE GUIDANCE
+              2+ YEARS OF DIVINE GUIDANCE
             </p>
           </div>
         </motion.div>
@@ -37,7 +37,7 @@ const About = () => {
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-8">Meet Your Guide, <span className="italic">Persephone</span></h3>
           <div className="space-y-6 text-white/70 leading-relaxed text-lg">
             <p>
-              I began my journey into the mystical arts over a decade ago, possessing the rare gift of looking into the future to provide profound clarity. My expertise lies in divination and prediction reading, helping you navigate the unknown with confidence.
+              I began my journey into the mystical arts two years ago, possessing the rare gift of looking into the future to provide profound clarity. My expertise lies in divination and prediction reading, helping you navigate the unknown with confidence.
             </p>
             <p>
               Specializing in love-related matters, career help, and time-frame readings, I've helped hundreds of clients overseas find their way. Whether you're wondering about a specific problem or seeking guidance for the months ahead, my readings are tailored to your unique energy.
@@ -49,11 +49,11 @@ const About = () => {
           
           <div className="mt-12 grid grid-cols-2 gap-8">
             <div>
-              <h4 className="text-3xl font-serif text-mystic-purple mb-1">500+</h4>
+              <h4 className="text-3xl font-serif text-mystic-purple mb-1">100+</h4>
               <p className="text-xs uppercase tracking-widest text-white/40">Readings Done</p>
             </div>
             <div>
-              <h4 className="text-3xl font-serif text-mystic-purple mb-1">20+</h4>
+              <h4 className="text-3xl font-serif text-mystic-purple mb-1">10+</h4>
               <p className="text-xs uppercase tracking-widest text-white/40">Countries Reached</p>
             </div>
           </div>
