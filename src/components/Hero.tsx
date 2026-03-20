@@ -59,7 +59,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a 
-            href={INSTAGRAM_URL}
+            href="https://www.instagram.com/persephone_tarot_reader/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-10 py-4 bg-mystic-pink text-white font-bold rounded-full hover:bg-mystic-pink/80 transition-all shadow-lg shadow-mystic-pink/20 flex items-center justify-center"
@@ -74,15 +74,7 @@ const Hero = () => {
           </a>
         </motion.div>
       </div>
-
-      <motion.div 
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/30 flex flex-col items-center gap-2"
-      >
-        <span className="text-[10px] uppercase tracking-widest">Scroll to Explore</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-white/30 to-transparent" />
-      </motion.div>
+      
     </section>
   );
 };
