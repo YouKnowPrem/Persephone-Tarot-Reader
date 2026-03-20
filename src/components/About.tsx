@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import tarotReaderImg from './Tarot_reader.png';
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
         >
           <div className="aspect-[4/5] rounded-3xl overflow-hidden glass p-4">
             <img 
-              src="src/components/Tarot_reader.png" 
+              src={tarotReaderImg} 
               alt="Persephone Tarot Reader" 
               className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
