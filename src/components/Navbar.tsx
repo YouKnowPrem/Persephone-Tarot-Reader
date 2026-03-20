@@ -12,7 +12,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center glass border-b border-white/10"
     >
       <div className="text-2xl font-serif font-bold text-gradient tracking-wider">
-        MYSTIC AURA
+       Persephone
       </div>
       <div className="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-medium text-white/70">
         <a href="#about" className="hover:text-mystic-pink transition-colors">About</a>
