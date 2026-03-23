@@ -9,6 +9,7 @@ import Cards from './components/Cards';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingIcons from './components/FloatingIcons';
+import Reviews from './components/Reviews';
 
 export default function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -38,6 +39,7 @@ export default function App() {
           <About />
           <Readings />
           <Cards />
+          <Reviews />
           <Contact />
         </main>
         <Footer />
