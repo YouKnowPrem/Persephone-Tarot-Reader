@@ -103,7 +103,7 @@ const Readings = () => {
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
             whileHover={{ y: -5 }}
-            className="glass p-8 rounded-3xl border border-white/5 group relative flex flex-col h-full"
+            className="glass p-8 rounded-3xl border border-white/5 group relative flex flex-col h-full overflow-hidden shimmer-hover"
           >
             <div className="mb-6 p-3 rounded-xl bg-white/5 w-fit">
               {reading.icon}
