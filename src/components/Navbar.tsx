@@ -9,7 +9,8 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center glass border-b border-white/10"
+      style={{ WebkitBackdropFilter: "blur(12px)", backdropFilter: "blur(12px)" }}
+      className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-mystic-black/30 border-b border-white/10"
     >
       <div className="text-2xl font-serif font-bold text-gradient tracking-wider">
        Persephone
