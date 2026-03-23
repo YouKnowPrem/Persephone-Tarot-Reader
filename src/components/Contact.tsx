@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Mail, Instagram, MessageCircle } from 'lucide-react';
-import { INSTAGRAM_URL, EMAIL_ADDRESS } from '../constants';
+import { Instagram } from 'lucide-react';
+import { INSTAGRAM_URL } from '../constants';
 
 const Contact = () => {
   return (
@@ -29,14 +29,24 @@ const Contact = () => {
             Ready to Find <br /><span className="italic">Your Answers?</span>
           </motion.h3>
           
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <a href={`mailto:${EMAIL_ADDRESS}`} className="flex flex-col items-center p-8 rounded-3xl glass-pink hover:bg-mystic-pink/20 transition-all group relative overflow-hidden shimmer-hover">
-              <Mail className="mb-4 text-white group-hover:scale-110 transition-transform" size={28} />
-              <span className="text-xs uppercase tracking-widest font-bold text-white/80">Email Me</span>
-            </a>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 rounded-3xl glass hover:bg-white/10 transition-all group border-mystic-purple/20 relative overflow-hidden shimmer-hover">
-              <Instagram className="mb-4 text-white group-hover:scale-110 transition-transform" size={28} />
-              <span className="text-xs uppercase tracking-widest font-bold text-white/80">Instagram</span>
+          <div className="flex justify-center mt-12 mb-4">
+            <a 
+              href={INSTAGRAM_URL} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="relative group flex items-center gap-6 px-10 py-6 md:px-14 md:py-8 rounded-full glass-pink hover:bg-mystic-pink/20 transition-all overflow-hidden shimmer-hover border border-mystic-pink/40 shadow-[0_0_40px_-10px_rgba(255,105,180,0.3)] hover:shadow-[0_0_60px_-10px_rgba(255,105,180,0.6)] hover:-translate-y-1"
+            >
+              <div className="w-14 h-14 rounded-full bg-white/10 flex items-center justify-center group-hover:scale-110 group-hover:bg-white/20 transition-all duration-300">
+                <Instagram className="text-white relative z-10" size={28} />
+              </div>
+              <div className="flex flex-col items-start text-left">
+                <span className="text-sm md:text-base uppercase tracking-[0.2em] font-bold text-white mb-1 group-hover:text-mystic-pink transition-colors">
+                  Reach Out on Instagram
+                </span>
+                <span className="text-xs text-white/60">
+                  @ishika_Persephone
+                </span>
+              </div>
             </a>
           </div>
         </div>
