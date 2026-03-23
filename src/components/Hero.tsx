@@ -26,33 +26,31 @@ const Hero = () => {
       />
       
       <div className="z-10 max-w-4xl">
-        <div className="glass p-8 md:p-12 mb-12 rounded-[3rem] border border-white/5 bg-mystic-black/20 backdrop-blur-md">
-          <motion.p 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 1 }}
-            className="text-mystic-pink uppercase tracking-[0.5em] text-sm mb-6 font-semibold"
-          >
-            Unveil Your Destiny
-          </motion.p>
-          
-          <h1 
-            ref={titleRef}
-            className="text-6xl md:text-8xl font-serif text-white mb-8 leading-tight"
-          >
-            Guidance from the <br />
-            <span className="text-gradient italic">Celestial Realms</span>
-          </h1>
-          
-          <motion.p 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-            className="text-white/60 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed"
-          >
-            Explore the hidden truths of your past, present, and future through the ancient wisdom of Tarot.
-          </motion.p>
-        </div>
+        <motion.p 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 1 }}
+          className="text-mystic-pink uppercase tracking-[0.5em] text-sm mb-6 font-semibold"
+        >
+          Unveil Your Destiny
+        </motion.p>
+        
+        <h1 
+          ref={titleRef}
+          className="text-6xl md:text-8xl font-serif text-white mb-8 leading-tight"
+        >
+          Guidance from the <br />
+          <span className="text-gradient italic">Celestial Realms</span>
+        </h1>
+        
+        <motion.p 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+          className="text-white/60 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed"
+        >
+          Explore the hidden truths of your past, present, and future through the ancient wisdom of Tarot.
+        </motion.p>
         
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -64,13 +62,13 @@ const Hero = () => {
             href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-10 py-4 shimmer bg-mystic-pink text-white font-bold rounded-full hover:bg-mystic-pink/80 transition-all shadow-lg shadow-mystic-pink/20 flex items-center justify-center overflow-hidden"
+            className="px-10 py-4 bg-mystic-pink text-white font-bold rounded-full hover:bg-mystic-pink/80 transition-all shadow-lg shadow-mystic-pink/20 flex items-center justify-center"
           >
             START YOUR JOURNEY
           </a>
           <a 
             href="#readings"
-            className="px-10 py-4 shimmer-hover glass text-white font-bold rounded-full hover:bg-white/10 transition-all flex items-center justify-center overflow-hidden"
+            className="px-10 py-4 glass text-white font-bold rounded-full hover:bg-white/10 transition-all flex items-center justify-center"
           >
             LEARN MORE
           </a>
