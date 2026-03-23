@@ -30,11 +30,11 @@ const Contact = () => {
           </motion.h3>
           
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <a href={`mailto:${EMAIL_ADDRESS}`} className="flex flex-col items-center p-8 rounded-3xl glass-pink hover:bg-mystic-pink/20 transition-all group">
+            <a href={`mailto:${EMAIL_ADDRESS}`} className="flex flex-col items-center p-8 rounded-3xl glass-pink hover:bg-mystic-pink/20 transition-all group relative overflow-hidden shimmer-hover">
               <Mail className="mb-4 text-white group-hover:scale-110 transition-transform" size={28} />
               <span className="text-xs uppercase tracking-widest font-bold text-white/80">Email Me</span>
             </a>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 rounded-3xl glass hover:bg-white/10 transition-all group border-mystic-purple/20">
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 rounded-3xl glass hover:bg-white/10 transition-all group border-mystic-purple/20 relative overflow-hidden shimmer-hover">
               <Instagram className="mb-4 text-white group-hover:scale-110 transition-transform" size={28} />
               <span className="text-xs uppercase tracking-widest font-bold text-white/80">Instagram</span>
             </a>
