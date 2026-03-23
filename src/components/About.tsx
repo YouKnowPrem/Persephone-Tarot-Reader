@@ -21,7 +21,7 @@ const About = () => {
               referrerPolicy="no-referrer"
             />
           </div>
-          <div className="absolute -bottom-8 -right-8 w-48 h-48 glass-pink rounded-full flex items-center justify-center text-center p-6 border border-mystic-pink/30">
+          <div className="absolute -bottom-8 -right-8 w-48 h-48 glass-pink rounded-full flex items-center justify-center text-center p-6 border border-mystic-pink/30 relative overflow-hidden shimmer">
             <p className="text-xs font-bold text-white tracking-widest leading-tight">
               2+ YEARS OF DIVINE GUIDANCE
             </p>
@@ -33,6 +33,7 @@ const About = () => {
           initial={{ opacity: 0, x: 50 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
+          className="glass p-8 md:p-12 rounded-[3rem] border-white/5 bg-mystic-black/20 backdrop-blur-md"
         >
           <h2 className="text-mystic-pink uppercase tracking-widest text-sm font-bold mb-4">The Soul Behind the Cards</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-8">Meet Your Guide, <span className="italic">Persephone</span></h3>
